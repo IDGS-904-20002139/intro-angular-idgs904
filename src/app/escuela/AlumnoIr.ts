@@ -5,4 +5,5 @@ export interface IAlumno{
     correo:string;
     pago: number;
     foto: string;
+    cali: number;
 }
