@@ -12,6 +12,7 @@ import { OperasModule } from './escuela/formularios/operas/operas.module';
 import { AlumnosFilterPipe } from './escuela/alumnos-filter.pipe';
 import { CalificacionAlumComponent } from './escuela/calificacion-alum/calificacion-alum.component';
 import { AlumnosReactiveComponent } from './formularios/alumnos-reactive/alumnos-reactive.component';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AlumnosReactiveComponent } from './formularios/alumnos-reactive/alumnos
     FormsModule,
     BrowserAnimationsModule,
     OperasModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
